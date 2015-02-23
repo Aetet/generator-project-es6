@@ -1,0 +1,15 @@
+{
+  "name": "<%= projectName%>",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "keywords": [
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "^2.1.0",
+    "chai": "^2.0.0",
+    "gulp": "git+https://github.com/gulpjs/gulp.git#4.0"
+  }
+}
