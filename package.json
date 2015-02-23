@@ -1,0 +1,11 @@
+{
+  "name": "generator-project-es6",
+  "version": "0.1.0",
+  "description": "Custom es6 project for quick start with gulp, webpack and config system out of the box",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.17.7"
+  }
+}
