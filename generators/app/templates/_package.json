@@ -7,9 +7,17 @@
   ],
   "dependencies": {
   },
+  "main": "dist/",
   "devDependencies": {
     "mocha": "^2.1.0",
     "chai": "^2.0.0",
-    "gulp": "git+https://github.com/gulpjs/gulp.git#4.0"
+    "gulp": "git+https://github.com/gulpjs/gulp.git#4.0",
+    "gulp-babel": "^4.0.0",
+    "gulp-changed": "^1.1.1"
+  },
+  "scripts": {
+    "test": "mocha",
+    "build": "gulp build",
+    "dev": "gulp watch"
   }
 }
